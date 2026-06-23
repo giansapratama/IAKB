@@ -3,11 +3,6 @@
 import { useEffect, useState } from 'react'
 import AppSidebar from '@/components/app-sidebar'
 import { useSession } from '@/lib/auth-client'
-import { auth } from '@/lib/auth'
-import { headers } from 'next/headers'
-import { db } from '@/lib/db'
-import { user, userRoles } from '@/lib/db/schema'
-import { eq } from 'drizzle-orm'
 
 interface User {
   id: string
