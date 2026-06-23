@@ -1,3 +1,5 @@
+'use client' 
+
 import { useEffect, useState } from 'react'
 import AppSidebar from '@/components/app-sidebar'
 import { useSession } from '@/lib/auth-client'
